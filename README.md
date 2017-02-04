@@ -1,14 +1,14 @@
-Motionless
+# Motionless
 
 FFMPEG powered video/audio streaming C++ library.  This library is based on the excellent Motion library by zsb (https://github.com/zsbzsb/Motion).  This version has no ties to SFML (game library) or C exports and only relies on FFMPEG.  Audio is currently disabled (crudely commented out).  I simply have no need for it in my current application, but pull requests are welcome.
 
 Basic usage:
-Add the Motionless/Motionless dir to your include path.
-Add the Motionless.lib output path to your linker path and link against Motionless.lib
-Add Motionless.lib to your working directory.
++ Add the Motionless/Motionless dir to your include path.
++ Add the Motionless.lib output path to your linker path and link against Motionless.lib
++ Add Motionless.lib to your working directory.
 
 Main.cpp example:
-
+```C++
 #include "include/Motion.hpp"
 
 ....
@@ -41,3 +41,4 @@ int main()
 	}
 
 }
+```
