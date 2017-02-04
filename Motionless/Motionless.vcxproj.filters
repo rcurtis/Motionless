@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\Motion\AudioPacket.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Motion\AudioPlayback.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Motion\DataSource.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Motion\VideoPacket.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Motion\VideoPlayback.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\AudioPlayback.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\DataSource.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Motion.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\State.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\VideoPlayback.hpp">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\priv\AudioPacket.hpp">
+      <Filter>include\priv</Filter>
+    </ClInclude>
+    <ClInclude Include="include\priv\VideoPacket.hpp">
+      <Filter>include\priv</Filter>
+    </ClInclude>
+    <ClInclude Include="NonCopyable.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{5eb951a1-9c6b-4e91-9fa2-19e1db328242}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{114029c8-f618-4651-90af-2019804b0fd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\priv">
+      <UniqueIdentifier>{b0e2ff6d-d82d-4971-9c1c-ccac448b43f5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
